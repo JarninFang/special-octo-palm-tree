@@ -1,0 +1,77 @@
+.top-page {
+  //position: absolute;
+  background: url("../images/background.jpg") no-repeat center center;
+  background-size: cover;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.second-page {
+  width: 100%;
+  height: 100%;
+  background-color: #DDD;
+  margin: 0px;
+}
+
+#about-text {
+  text-align: center;
+  padding: 3em;
+  font-size: 1.5em;
+}
+
+h1.centered-text {
+  margin-top: 0px;
+  padding-top: 3em;
+  font-size: 4em;
+}
+
+.centered-text {
+  text-align: center;
+  color: #FFF;
+  margin-bottom: .5em;
+}
+
+.centered-button {
+  display: block;
+  background-color: #EEE;
+}
+
+.centered-button:hover {
+  background: #999;
+}
+
+#about-header {
+  padding-top: 1em;
+  margin-top: 0px;
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+/*Portfolio-page*/
+#portfolio-header {
+  text-align: center;
+  padding-top: 1.25em;
+  padding-bottom: 1.5em;
+  margin: 0px;
+}
+
+.portfolio-page  {
+  margin: 0px;
+  height: 100%;
+  background-color: #e1fbff;
+}
+
+/*Footer*/
+.footer {
+  padding-top: 1.25em;
+  margin: 0px;
+  background-color: #f3f0f0;
+}
+
+.small-footer-pic {
+  width: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
