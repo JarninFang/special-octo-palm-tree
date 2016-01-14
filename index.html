@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic' rel='stylesheet' type='text/css'>
 	<!-- main.css -->
@@ -6,10 +7,37 @@
 	<!-- jquery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>	
 	<script type="text/javascript" src="js/js.js"></script>
-	<!-- Latest compiled and minified CSS -->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+	<!--boostrap css-->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<!--bootstrap js-->	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>	
 </head>
-<body>
+<body> 
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsing-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Jarnin Fang</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="collapsing-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
 <div class="top-page">
 	<div class="header-text">
 	  	<h1 class="centered-text">Hello I'm Jarnin.</h1>
@@ -24,34 +52,34 @@
 </div>
 <div class="portfolio-page">
   	<h1 id="portfolio-header">Portfolio</h1>
-  	<div class="container">
 	  	<div class="row">
-	  		<div class="col-lg-4">
-		  		<a href="#"><img class="img-responsive" src="images/bounded-splash.png" alt="bounded picture"></a>
+	  		<div class="col-lg-4 col-md-4">
+		  		<a href="#"><img class="img-responsive portfolio-pic lightbox-trigger" src="images/bounded-splash.png" alt="bounded picture"></a>
 	  		</div>
-	  		<div class="col-lg-4">
-		  		<a href="#"><img class="img-responsive" src="images/placeholder.png" alt="placeholder picture"></a>
+	  		<div class="col-lg-4 col-md-4">
+		  		<a href="#"><img class="img-responsive portfolio-pic lightbox-trigger" src="images/placeholder.png" alt="placeholder picture"></a>
 	  		</div>
-	  		<div class="col-lg-4">
-		  		<a href="#"><img class="img-responsive" src="images/placeholder.png" alt="placeholder picture"></a>
+	  		<div class="col-lg-4 col-md-4">
+		  		<a href="#"><img class="img-responsive portfolio-pic lightbox-trigger" src="images/placeholder.png" alt="placeholder picture"></a>
 	  		</div>
 	  	</div>
   	</div>
 </div>
 <div class="footer">
 	<div class="row">
-		<div class="col-lg-4">
+		<div class="col-lg-4 col-md-4">
 		</div>
-		<div class="col-lg-1">
-			<a href="#"><img class="img-responsive small-footer-pic" src="images/facebook.png" alt="facebook"></a>
+		<div class="col-lg-1 col-md-1">
+			<a href="https://www.facebook.com/jarnin.fang"><img class="img-responsive small-footer-pic" src="images/facebook.png" alt="facebook"></a>
 		</div>
-		<div class="col-lg-2">
+		<div class="col-lg-2 col-md-2">
 		</div>
-		<div class="col-lg-1">
-			<a href="#"><img class="img-responsive small-footer-pic" src="images/github.png" alt="github"></a>
+		<div class="col-lg-1 col-md-1">
+			<a href="https://github.com/jarninfang"><img class="img-responsive small-footer-pic" src="images/github.png" alt="github"></a>
 		</div>
-		<div class="col-lg-4">
+		<div class="col-lg-4 col-md-4">
 		</div>
 	</div>
 </div>
 </body>
+</html>
