@@ -128,3 +128,16 @@ nav.navbar.navbar-default {
   height: 100%;
   background-color: rgba(0,0,0,0.5); /*dim the background*/
 }
+
+/*Hover animation*/
+.portfolio-pic {
+    float: left;
+    margin: 15px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.portfolio-pic:hover {
+    margin-top: 2px;
+}
