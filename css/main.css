@@ -18,13 +18,15 @@
 
 #about-text {
   text-align: center;
-  padding: 3em;
+  padding: 5em;
   font-size: 1.5em;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 h1.centered-text {
   margin-top: 0px;
-  padding-top: 3em;
+  padding-top: 4em;
   font-size: 4em;
 }
 
@@ -44,10 +46,12 @@ h1.centered-text {
 }
 
 #about-header {
-  padding-top: 1em;
+  padding-top: 2em;
   margin-top: 0px;
   font-family: 'Open Sans';
   text-align: center;
+  font-size: 4em;
+
 }
 
 /*Portfolio-page*/
