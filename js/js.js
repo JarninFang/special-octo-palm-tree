@@ -48,7 +48,13 @@ $(document).ready(function($){
 		$('#lightbox').hide();
 	});
 
-	//FOR SCROLLING NAVBAR
+    //FOR LEARN MORE BUTTON
+    $('#learn-more-btn').click(function() {
+        console.log('clicked');
+        $('html, body').animate({
+            scrollTop: $('#second-page').offset().top
+        }, 1000);
+    });
 });
 
 function loadContent(imageID) {
